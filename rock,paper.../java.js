@@ -13,7 +13,7 @@ function getComputerChoice() {
     }
 }
 function getHumanChoice(){
-    let choice = prompt("Choose Rock, Paper or Scissors:")toLowerCase();
+    let choice = prompt("Choose Rock, Paper or Scissors:"),toLowerCase();
     if (choice === "rock" || choice === "paper" || choice ===  "scissors" ) {return choice}
     else { alert `INVALID CHOICE` 
         return getHumanChoice();
